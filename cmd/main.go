@@ -16,6 +16,13 @@ func Sum(a int, b int) int {
 func Divide(a int, b int) int {
 	return a / b
 }
+func Mux(a int, b int) int {
+	if a > b {
+		return a
+	} else {
+		return b
+	}
+}
 func main() {
 	fmt.Println(Sum(2, 3))
 }
